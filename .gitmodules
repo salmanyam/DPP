@@ -1,0 +1,3 @@
+[submodule "dpp-llvm"]
+	path = dpp-llvm
+	url = https://github.com/salmanyam/dpp-llvm.git
