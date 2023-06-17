@@ -1,6 +1,7 @@
 [submodule "dpp-llvm"]
 	path = dpp-llvm
 	url = https://github.com/salmanyam/dpp-llvm.git
+	branch = main
 [submodule "SVF"]
 	path = SVF
 	url = https://github.com/salmanyam/SVF.git
@@ -8,3 +9,4 @@
 [submodule "dpp-data"]
 	path = dpp-data
 	url = https://github.com/salmanyam/dpp-data.git
+	branch = main
