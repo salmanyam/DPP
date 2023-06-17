@@ -5,3 +5,6 @@
 	path = SVF
 	url = https://github.com/salmanyam/SVF.git
 	branch = dpp/main
+[submodule "dpp-data"]
+	path = dpp-data
+	url = https://github.com/salmanyam/dpp-data.git
