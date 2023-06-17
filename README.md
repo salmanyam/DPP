@@ -1,4 +1,6 @@
-# DPP
+# Data and Pointer Prioritization (DPP)
+
+This repository contains the source code and evaluation datasets of our proposed `Data and Pointer Prioritization (DPP)` framework utilizing rule-based heuristics to identify `sensitive` memory objects automatically from an application and protect only those sensitive data utilizing existing countermeasures. This work has been accepted in The 32nd USENIX Security Symposium (`USENIX Security'23`). The title of the paper is `Not All Data are Created Equal: Data and Pointer Prioritization for Scalable Protection Against Data-Oriented Attacks.`
 
 ### Getting Started
 
