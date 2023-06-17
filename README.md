@@ -4,16 +4,22 @@ This repository contains the source code and evaluation datasets of our proposed
 
 ### Getting Started
 
+Download the code:
+```bash
+git clone https://github.com/salmanyam/DPP.git
+```
+
 This repo contains submodules and needs to be initiated:
 ```bash
+cd DPP
 git submodule update --remote --merge
 ```
 
-Build dpp-llvm:
+To build the `dpp-llvm` source code along with `SVF`, run the `build.sh` script:
 ```bash
 ./build.sh
 ```
-This script will do in-source compilation of SVF and build LLVM binaries (`clang`, `opt`, `llvm-ar`, `lld`, etc) are under
+This script will do in-source compilation of `SVF` and build LLVM binaries (`clang`, `opt`, `llvm-ar`, `lld`, etc) are under
 `dpp-llvm/build/bin`.
 
 ### Prioritization of data objects
