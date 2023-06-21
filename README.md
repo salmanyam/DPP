@@ -4,6 +4,11 @@ This repository contains the source code and evaluation datasets of our proposed
 
 ### Getting Started
 
+To install prerequisite, run the following command:
+```bash
+./prerequisites.sh
+```
+
 Download the code:
 ```bash
 git clone https://github.com/salmanyam/DPP.git
@@ -12,7 +17,12 @@ git clone https://github.com/salmanyam/DPP.git
 This repo contains submodules and needs to be initiated:
 ```bash
 cd DPP
-git submodule update --remote --merge
+git submodule update --init --recursive --progress
+```
+
+To install a CMake version 3.13.4 or higher, run the `install_cmake.sh` script. The script will install the CMake version 3.27.
+```bash
+./install_cmake.sh
 ```
 
 To build the `dpp-llvm` source code along with `SVF`, run the `build.sh` script:
