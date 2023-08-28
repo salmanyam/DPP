@@ -91,3 +91,22 @@ AddrVFGNode ID: 17 AddrPE: [34<--35]
 
 rule9:: 12(5) 10(1)
 ```
+
+## Publication
+
+```bib
+Not All Data are Created Equal: Data and Pointer Prioritization for Scalable Protection Against Data-Oriented Attacks
+
+@inproceedings {291078,
+   author = {Salman Ahmed and Hans Liljestrand and Hani Jamjoom and Matthew Hicks and N. Asokan and Danfeng (Daphne) Yao},
+   title = {Not All Data are Created Equal: Data and Pointer Prioritization for Scalable Protection Against {Data-Oriented} Attacks},
+   booktitle = {32nd USENIX Security Symposium (USENIX Security 23)},
+   year = {2023},
+   isbn = {978-1-939133-37-3},
+   address = {Anaheim, CA},
+   pages = {1433--1450},
+   url = {https://www.usenix.org/conference/usenixsecurity23/presentation/ahmed-salman},
+   publisher = {USENIX Association},
+   month = aug,
+}
+```
